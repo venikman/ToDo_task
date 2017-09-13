@@ -1,0 +1,13 @@
+@import url("bootstrap.css");
+
+.lineThr, .lineThr:hover {
+    text-decoration-line: line-through;
+}
+
+input.formInvalid::-webkit-input-placeholder {
+    color: red;
+}
+input.formInvalid {
+    outline: red;
+    border-color: red;
+}
